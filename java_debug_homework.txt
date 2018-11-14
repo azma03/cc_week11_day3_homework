@@ -1,0 +1,34 @@
+https://gist.github.com/futuresocks/44af781d97e2bb6bd7add44d5996111a
+
+Introduction to Debugging in IDE
+
+Learning Objectives
+
+Know how to debug a Java application
+Understand breakpoints
+Understand the debugger console
+Know how to evaluate code fragments
+Task
+
+As an introduction to debugging:
+
+watch the following video: Intro to Debugging video
+https://www.youtube.com/watch?v=ErVZrVWZrko&feature=youtu.be
+Answer the following questions:
+
+1) What is the purpose of a breakpoint?
+It will pause the application at that point and helps to debug any errors in the code.
+
+2) Does the line of code on a breakpoint run when you start debugging?
+The application will pause before running the line the code on which the breakpoint is added.
+
+3) How do we debug the next line of code?
+We can use the step over option from the debugger console.
+
+4) What does the step into command do?
+Step into command will run the current highlighted line of code and takes us into the definition of the function if there is any.
+It will go to the first line of code in that method definition and pause there.
+
+5) What is the difference between evaluate expression and evaluate code fragment?
+Evaluate expression runs single line of code on the variables at that stage point in debugging.
+Whereas Evaluate code fragment mode allows us to write and run multiple lines of code and methods at that point in debugging.
